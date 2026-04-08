@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="DG Company — Material gráfico premium para inmobiliarias. Folletos, brochures, banners y kits de sala de ventas con entrega en 48h en Lima.">
+<meta name="keywords" content="imprenta Lima, material gráfico inmobiliarias, folletos, brochures, sala de ventas, DG Company">
+<meta property="og:title" content="DG Company | Material Gráfico para Inmobiliarias">
+<meta property="og:description" content="Impresiones premium para inmobiliarias que quieren vender más. Entrega en 48h en Lima.">
+<meta property="og:type" content="website">
+<title>DG Company | Material Gráfico Premium para Inmobiliarias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BANNER DE URGENCIA -->
+<div class="banner" id="banner">
+  <span>🎯 <strong>Oferta especial para inmobiliarias:</strong> 15% de descuento en tu primer paquete mensual — válido abril 2026</span>
+  <button class="banner-close" onclick="document.getElementById('banner').remove()">✕</button>
+</div>
+
+<!-- NAVEGACIÓN -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <span class="logo-dg">DG</span><span class="logo-company">Company</span>
+    </a>
+    <div class="nav-links">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Cotizar</a>
+      <a href="https://wa.me/51999XXXXXX?text=Hola+DG+Company" class="nav-wa" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#catalogo" onclick="toggleMenu()">Catálogo</a>
+    <a href="#proceso" onclick="toggleMenu()">Proceso</a>
+    <a href="#contacto" onclick="toggleMenu()">Cotizar</a>
+    <a href="https://wa.me/51999XXXXXX" class="nav-wa-mobile" target="_blank">💬 WhatsApp</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-bg">
+    <div class="hero-ink ink-cyan"></div>
+    <div class="hero-ink ink-magenta"></div>
+    <div class="hero-ink ink-yellow"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-eyebrow">
+        <span class="dot dot-c"></span>
+        <span class="dot dot-m"></span>
+        <span class="dot dot-y"></span>
+        <span class="dot dot-k"></span>
+        Material gráfico premium para inmobiliarias
+      </div>
+      <h1 class="hero-title">
+        Impresiones que<br>
+        <em>venden</em> propiedades
+      </h1>
+      <p class="hero-desc">
+        Folletos, brochures, banners y kits de sala de ventas para inmobiliarias que quieren cerrar más — con entrega en 48h en Lima.
+      </p>
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+        <a href="https://drive.google.com/uc?export=download&id=TU_ID_PDF_CATALOGO" class="btn btn-outline" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Descargar PDF
+        </a>
+      </div>
+      <div class="hero-trust">
+        <span>✓ Entrega 48h Lima</span>
+        <span>✓ Contratos mensuales</span>
+        <span>✓ Papel FineArt premium</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card-wrap">
+        <div class="hero-card-back"></div>
+        <div class="hero-card-mid"></div>
+        <div class="hero-card-front">
+          <div class="hcard-eyebrow">DG Company · Lima, Perú</div>
+          <div class="hcard-title">Material que<br>cierra ventas</div>
+          <div class="hcard-cmyk">
+            <span class="cmyk-c">C</span>
+            <span class="cmyk-m">M</span>
+            <span class="cmyk-y">Y</span>
+            <span class="cmyk-k">K</span>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="hstat-num">+40%</div>
+          <div class="hstat-label">cierres con material DG</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BARRA SOCIAL PROOF -->
+<div class="social-bar">
+  <div class="social-bar-inner">
+    <span class="social-bar-label">Confían en DG Company</span>
+    <div class="social-bar-track">
+      <span>Inmobiliarias Lima</span>
+      <span class="dot-sep"></span>
+      <span>Agentes de proyectos</span>
+      <span class="dot-sep"></span>
+      <span>Salas de ventas</span>
+      <span class="dot-sep"></span>
+      <span>Open houses</span>
+      <span class="dot-sep"></span>
+      <span>Ferias inmobiliarias</span>
+      <span class="dot-sep"></span>
+      <span>Constructoras</span>
+    </div>
+  </div>
+</div>
+
+<!-- DESCARGA CATÁLOGO -->
+<div class="catalog-bar">
+  <a href="https://drive.google.com/uc?export=download&id=TU_ID_PDF_CATALOGO" class="catalog-bar-link" download>
+    <span class="catalog-bar-icon">📄</span>
+    <span>Descargar catálogo completo DG Company 2026</span>
+    <span class="catalog-bar-arrow">↓</span>
+  </a>
+</div>
+
+<!-- CATÁLOGO DE PRODUCTOS -->
+<section class="products" id="catalogo">
+  <div class="section-wrap">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        Productos & Servicios
+        <span class="eyebrow-line"></span>
+      </div>
+      <h2 class="section-title">Todo lo que necesita<br>tu inmobiliaria</h2>
+      <p class="section-sub">Tres líneas diseñadas para cada etapa de tu proceso comercial. Todas con opción de contrato mensual recurrente.</p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- CARD 1 -->
+      <div class="product-card">
+        <div class="product-num">01</div>
+        <div class="product-accent product-accent-c"></div>
+        <div class="product-badge">Captación de leads</div>
+        <h3 class="product-name">Folletos &amp; Brochures</h3>
+        <p class="product-desc">Piezas impresas de alto impacto para open houses, ferias y visitas. Papel couché o FineArt desde 150 gr.</p>
+        <ul class="product-features">
+          <li>Folletos A4 / díptico / tríptico</li>
+          <li>Brochures encuadernados A5</li>
+          <li>Catálogos de proyectos completos</li>
+          <li>Diseño incluido (1 revisión)</li>
+        </ul>
+        <a href="#contacto" class="product-cta">Cotizar este paquete →</a>
+      </div>
+
+      <!-- CARD 2 FEATURED -->
+      <div class="product-card product-featured">
+        <div class="product-num">02</div>
+        <div class="product-badge product-badge-featured">⭐ Más solicitado</div>
+        <h3 class="product-name">Kit Sala de Ventas</h3>
+        <p class="product-desc">Todo lo que necesitas para que tu sala de ventas proyecte profesionalismo y cierre más contratos.</p>
+        <ul class="product-features">
+          <li>Roll-ups y tótems impresos</li>
+          <li>Planos en gran formato</li>
+          <li>Carpetas corporativas del proyecto</li>
+          <li>Merchandising (lapiceros, blocks)</li>
+        </ul>
+        <div class="product-price">Desde <strong>S/ 290</strong> / mes</div>
+        <a href="#contacto" class="product-cta product-cta-featured">Cotizar este paquete →</a>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="product-card">
+        <div class="product-num">03</div>
+        <div class="product-accent product-accent-y"></div>
+        <div class="product-badge">Publicidad exterior</div>
+        <h3 class="product-name">Banners &amp; Gran Formato</h3>
+        <p class="product-desc">Señalética exterior, vallas y material publicitario para visibilizar tu proyecto en la zona.</p>
+        <ul class="product-features">
+          <li>Banners vinílicos exteriores</li>
+          <li>Lonas y telas para fachadas</li>
+          <li>Gigantografías hasta 10 m²</li>
+          <li>Instalación disponible en Lima</li>
+        </ul>
+        <a href="#contacto" class="product-cta">Cotizar este paquete →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section class="process" id="proceso">
+  <div class="section-wrap">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        Cómo funciona
+        <span class="eyebrow-line"></span>
+      </div>
+      <h2 class="section-title">De la idea a tus manos<br>en 48 horas</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="pstep-num pstep-c">01</div>
+        <div class="pstep-title">Cotiza</div>
+        <p class="pstep-desc">Escríbenos por WhatsApp o completa el formulario con tu volumen y tipo de material.</p>
+      </div>
+      <div class="process-arrow">→</div>
+      <div class="process-step">
+        <div class="pstep-num pstep-m">02</div>
+        <div class="pstep-title">Aprobamos arte</div>
+        <p class="pstep-desc">Te enviamos prueba digital. Un ciclo de revisión hasta que quedes 100% satisfecho.</p>
+      </div>
+      <div class="process-arrow">→</div>
+      <div class="process-step">
+        <div class="pstep-num pstep-y">03</div>
+        <div class="pstep-title">Producimos</div>
+        <p class="pstep-desc">Impresión en máquinas de alta resolución con materiales premium certificados.</p>
+      </div>
+      <div class="process-arrow">→</div>
+      <div class="process-step">
+        <div class="pstep-num pstep-k">04</div>
+        <div class="pstep-title">Entregamos</div>
+        <p class="pstep-desc">Delivery puerta a puerta en Lima en 48h. Provincias coordinado según volumen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIO / STORYTELLING -->
+<section class="story">
+  <div class="story-inner">
+    <div class="story-quote-block">
+      <div class="story-mark">"</div>
+      <blockquote class="story-quote">
+        Mis clientes hojean el catálogo y dicen '¡quiero esta casa!'. Antes imprimía en cualquier lado y los folletos se iban directo a la basura.
+      </blockquote>
+      <div class="story-author">
+        <strong>Carla M.</strong>
+        <span>Agente inmobiliaria · Surco, Lima</span>
+      </div>
+    </div>
+    <div class="story-stats">
+      <div class="stat-item">
+        <div class="stat-num stat-c">5</div>
+        <div class="stat-desc">propiedades cerradas en los primeros 60 días usando material DG Company</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num stat-m">+40%</div>
+        <div class="stat-desc">de conversión reportada por clientes con contrato mensual recurrente</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num stat-y">48h</div>
+        <div class="stat-desc">tiempo promedio desde aprobación hasta entrega en puerta en Lima</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMULARIO DE CONTACTO -->
+<section class="contact" id="contacto">
+  <div class="section-wrap">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        Cotización gratuita
+        <span class="eyebrow-line"></span>
+      </div>
+      <h2 class="section-title">Inicia tu proceso recurrente</h2>
+      <p class="section-sub">Cuéntanos tu proyecto y te respondemos en menos de 2 horas hábiles.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>¿Prefieres hablar<br>directamente?</h3>
+        <p>Escríbenos por WhatsApp y te atendemos de inmediato. También puedes enviarnos tu material de referencia.</p>
+        <a href="https://wa.me/51999XXXXXX?text=Hola+DG+Company,+quiero+cotizar+material+para+mi+inmobiliaria" class="btn-wa-main" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chatear por WhatsApp
+        </a>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">@</span>
+          hola@dgcompany.com.pe
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">📍</span>
+          Lima, Perú — entrega nacional
+        </div>
+        <div class="contact-detail">
+          <span class="contact-detail-icon">🕐</span>
+          Lun–Vie 9am–7pm · Sáb 9am–1pm
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://hook.eu1.make.com/TU_WEBHOOK_AQUI" method="POST">
+        <input type="hidden" name="utm_source" value="landing_inmobiliaria">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre *</label>
+            <input type="text" name="nombre" placeholder="Tu nombre completo" required>
+          </div>
+          <div class="form-group">
+            <label>Empresa / Inmobiliaria</label>
+            <input type="text" name="empresa" placeholder="Nombre de tu empresa">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>WhatsApp *</label>
+            <input type="tel" name="whatsapp" placeholder="51 999 123 456" required>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="tu@correo.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Tipo de material</label>
+          <select name="servicio">
+            <option value="">Selecciona un servicio</option>
+            <option>Folletos &amp; Brochures</option>
+            <option>Kit Sala de Ventas</option>
+            <option>Banners &amp; Gran Formato</option>
+            <option>Paquete completo mensual</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Cuéntanos tu proyecto</label>
+          <textarea name="mensaje" rows="3" placeholder="Volumen mensual, tipo de proyecto inmobiliario, zona..."></textarea>
+        </div>
+        <button type="submit" class="form-submit" id="submitBtn">
+          Enviar cotización →
+        </button>
+        <p class="form-note">Te respondemos en menos de 2 horas hábiles. Sin compromisos.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-wrap">
+    <div class="section-header">
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        Preguntas frecuentes
+        <span class="eyebrow-line"></span>
+      </div>
+      <h2 class="section-title">Todo lo que necesitas saber</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">¿Cuánto tiempo demora la producción? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>El tiempo estándar es 48 horas desde la aprobación del arte en Lima. Para provincias coordinamos el envío. Pedidos urgentes en 24h con recargo.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">¿Qué incluye el contrato mensual recurrente? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Un volumen fijo de piezas a precio preferencial (–15 a 20%), diseño actualizado según tus proyectos activos, entrega programada y prioridad en la línea de producción.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">¿Puedo enviar mi propio diseño? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Sí, aceptamos PDF, AI, PSD o CDR a 300 dpi. Si necesitas diseño o adaptación, lo incluimos en la cotización. Revisamos el archivo antes de imprimir.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">¿Cuál es el pedido mínimo? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Para folletos A4: mínimo 100 unidades. Brochures encuadernados: desde 50. Gran formato: sin mínimo. Los contratos mensuales se estructuran según tu volumen habitual.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">¿Emiten factura electrónica? <span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Sí, emitimos factura electrónica para empresas y boleta para personas naturales. Trabajamos con inmobiliarias y agentes independientes.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <span class="logo-dg">DG</span><span class="logo-company">Company</span>
+      </div>
+      <p class="footer-tagline">Material gráfico premium<br>para inmobiliarias · Lima, Perú</p>
+    </div>
+    <div class="footer-links-col">
+      <h4>Productos</h4>
+      <a href="#catalogo">Folletos &amp; Brochures</a>
+      <a href="#catalogo">Kit Sala de Ventas</a>
+      <a href="#catalogo">Banners &amp; Gran Formato</a>
+      <a href="https://drive.google.com/uc?export=download&id=TU_ID_PDF_CATALOGO" download>Descargar catálogo</a>
+    </div>
+    <div class="footer-links-col">
+      <h4>Contáctanos</h4>
+      <a href="https://wa.me/51999XXXXXX" target="_blank">WhatsApp</a>
+      <a href="mailto:hola@dgcompany.com.pe">hola@dgcompany.com.pe</a>
+      <a href="https://www.instagram.com/dgcompany" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@dgcompany" target="_blank">TikTok</a>
+      <a href="https://www.linkedin.com/company/dgcompany" target="_blank">LinkedIn</a>
+    </div>
+    <div class="footer-cmyk">
+      <span class="fc">C</span>
+      <span class="fm">M</span>
+      <span class="fy">Y</span>
+      <span class="fk">K</span>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <p>© 2026 DG Company · Lima, Perú · Todos los derechos reservados</p>
+  </div>
+</footer>
+
+<!-- BOTÓN WA FLOTANTE -->
+<a href="https://wa.me/51999XXXXXX?text=Hola+DG+Company,+quiero+cotizar+material+para+mi+inmobiliaria" class="wa-float" target="_blank" aria-label="Chat en WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="main.js"></script>
+</body>
+</html>
